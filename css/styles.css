@@ -34,10 +34,6 @@ img {
     padding-right: 16px;
     margin-left: auto;
     margin-right: auto;
-
-
-    outline: 2px solid red;
-    outline-offset: -2px;
 }
 
 .section {
@@ -180,8 +176,8 @@ h2 {
 
 .mailtel-link {
     color: #434455;
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: 12px;
+    line-height: 1.17;
     letter-spacing: 0.02em;
     text-decoration: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -213,7 +209,7 @@ h2 {
     cursor: pointer;
 }
 
-header-menu-icon {
+.header-menu-icon {
     fill: #2F2F37;
 }
 
@@ -249,7 +245,7 @@ header-menu-icon {
     max-width: 288px;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.07;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     padding: 0 36px;
     margin-bottom: 72px;
@@ -277,6 +273,7 @@ header-menu-icon {
     .hero-title {
         max-width: 496px;
         font-size: 56px;
+        line-height: 1.07;
         margin-bottom: 36px;
         padding: 0;
     }
@@ -601,7 +598,7 @@ header-menu-icon {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     display: inline-block;
-    margin-bottom: 17.5px;
+    margin-bottom: 16px;
 
 }
 
@@ -743,7 +740,6 @@ header-menu-icon {
     position: absolute;
     top: 8px;
     max-width: 288px;
-    /* min-height: 623px; */
     background-color: #FCFCFC;
     border-radius: 4px;
     padding: 72px 16px 24px;
@@ -1004,6 +1000,7 @@ header-menu-icon {
 
 .social-list-footer.social-menu {
     margin: 0;
+    gap: 40px;
 }
 
 
@@ -1046,9 +1043,7 @@ header-menu-icon {
 
     }
 
-    .mailtel-link {
-        font-size: 12px;
-    }
+
 
 
 
@@ -1177,6 +1172,7 @@ header-menu-icon {
 
     .mailtel-link {
         font-size: 16px;
+        line-height: 1.07;
     }
 
     .feature-list {
@@ -1208,6 +1204,10 @@ header-menu-icon {
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+    }
+
+    .feature-text {
+        font-weight: 400;
     }
 
 
@@ -1257,19 +1257,9 @@ header-menu-icon {
         margin-right: 120px;
     }
 
-    .logo-footer {
-
-        margin-bottom: 16px;
-
-    }
-
     .footer-text {
         width: 264px;
 
-    }
-
-    .media-title {
-        margin-bottom: 16px;
     }
 
     .social-list-footer {
